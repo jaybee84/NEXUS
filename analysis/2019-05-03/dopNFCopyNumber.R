@@ -20,3 +20,6 @@ sapply(unique(segdata$individualID),function(x){
   plotBetterCopies(subset(segdata,individualID==x),prefix=x,all.only=T)
   
 })
+
+
+#test
